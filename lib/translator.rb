@@ -8,7 +8,7 @@ def load_library path
   # code goes here
   emotion_icons = {
     "get_meaning" => {},
-    "get_motions" => {}
+    "get_emoticon" => {}
   }
 end
 
