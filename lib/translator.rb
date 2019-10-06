@@ -18,8 +18,11 @@ def load_library path
   new_hash
 end
 
-def get_japanese_emoticon path 
+def get_japanese_emoticon (path, english) 
   # code goes here
+  emoticons = load_library(path)
+  if emoticons["get_emoticon"][english]
+  end
 end
 
 def get_english_meaning
