@@ -22,9 +22,18 @@ def get_japanese_emoticon (path, english)
   # code goes here
   emoticons = load_library(path)
   if emoticons["get_emoticon"][english]
+    return emoticons["get_emoticon"][english]
+  else
+    return "We are working to make this emation Available"
   end
 end
 
-def get_english_meaning
+def get_english_meaning (path, japanese)
   # code goes here
+  emoticons = load_library(path)
+  if emoticons["get_meaning"][japanese]
+    return emoticons["get_meaning"][japanese]
+  else
+    return "We are working to make this emation Available"
+  end
 end
