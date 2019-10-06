@@ -10,7 +10,10 @@ def load_library path
     "get_meaning" => {},
     "get_emoticon" => {}
   }
-  icon_files.each do | 
+  
+  icon_files.each do |key, value|
+    new_hash["get_meaning"][key]
+  end
 end
 
 def get_japanese_emoticon
