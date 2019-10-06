@@ -12,7 +12,8 @@ def load_library path
   }
   
   icon_files.each do |key, value|
-    new_hash["get_meaning"][value[i]] = 
+    new_hash["get_meaning"][value[i]] = key
+    new_hash["get_emoticon"][value]
   end
 end
 
