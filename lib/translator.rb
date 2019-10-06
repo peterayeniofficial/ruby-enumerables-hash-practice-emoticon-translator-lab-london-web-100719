@@ -12,7 +12,7 @@ def load_library path
   }
   
   icon_files.each do |key, value|
-    new_hash["get_meaning"][key]
+    new_hash["get_meaning"][value[]]
   end
 end
 
